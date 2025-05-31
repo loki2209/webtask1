@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Development Basics - Task 1</title>
+  <style>
+    /* CSS Styling: Blue, White, and Black Theme */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff; /* White */
+      color: #000000; /* Black */
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #e6f0ff; /* Light Blue */
+      border: 2px solid #004080; /* Dark Blue Border */
+      border-radius: 10px;
+    }
+
+    h1 {
+      color: #004080; /* Dark Blue */
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #003366;
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
+    ul {
+      list-style: square;
+      padding-left: 30px;
+    }
+
+    button {
+      background-color: #004080;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #00264d;
+    }
+
+    a {
+      color: #0000ee;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #004080;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Basics of Web Development</h1>
+
+    <h2>🔹 Objective:</h2>
+    <p>Learn and apply foundational HTML, CSS, and JavaScript concepts.</p>
+
+    <h2>🔹 Steps:</h2>
+    <ol>
+      <li>
+        <strong>Create a Simple Webpage Using HTML</strong>
+        <ul>
+          <li><strong>Objective:</strong> Understand basic HTML elements and structure.</li>
+          <li><strong>Actions:</strong> Build a webpage with headings, paragraphs, images, and links.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Style the Webpage Using CSS</strong>
+        <ul>
+          <li><strong>Objective:</strong> Learn how to apply styling with CSS.</li>
+          <li><strong>Actions:</strong> Add colors, fonts, spacing, and layout adjustments to the webpage.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Add Basic JavaScript for Interactivity</strong>
+        <ul>
+          <li><strong>Objective:</strong> Implement simple interactions using JavaScript.</li>
+          <li><strong>Actions:</strong> Create a button that triggers an alert message when clicked.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>🔗 Example Link:</h2>
+    <p>Visit <a href="https://www.apexplanet.in" target="_blank">ApexPlanet Website</a></p>
+
+    <h2>🖼️ Example Image:</h2>
+    <img src="https://via.placeholder.com/500x250.png?text=Web+Development+Task+1" alt="Web Task Image" />
+
+    <h2>🛠️ Try the Button:</h2>
+    <button onclick="showMessage()">Click Me</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("🎉 You clicked the button! Welcome to Web Development.");
+    }
+  </script>
+</body>
+</html>
